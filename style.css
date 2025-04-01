@@ -55,37 +55,36 @@ header .theme-toggle {
     margin-left: 10px;
 }
 
-header .contact-toggle {
-    cursor: pointer;
-    margin-left: 10px;
-}
-
 .profile-picture {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 20px;
-    animation: rotate 10s infinite linear;
+    animation: flip 6s infinite;
 }
 
-@keyframes rotate {
+@keyframes flip {
     0% {
-        transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotateY(360deg);
     }
 }
 
 section {
     padding: 2rem;
     margin: 1rem;
-    display: block;
+    display: none;
     width: 80%;
     max-width: 800px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px;
 }
 
 section h2 {
@@ -125,22 +124,18 @@ section h2 {
 
 .intro {
     background-color: #ecf0f1;
-    border-radius: 8px;
 }
 
 .skills {
     background-color: #f4f6f7;
-    border-radius: 8px;
 }
 
 .education {
     background-color: #ffffff;
-    border-radius: 8px;
 }
 
 .contact {
     background-color: #dfe6e9;
-    border-radius: 8px;
 }
 
 .dark-theme {
