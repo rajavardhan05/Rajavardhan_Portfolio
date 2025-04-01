@@ -6,11 +6,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
 }
 
 header {
@@ -18,8 +13,6 @@ header {
     color: #fff;
     text-align: center;
     padding: 2rem;
-    width: 100%;
-    margin-bottom: 2rem;
 }
 
 header h1 {
@@ -34,13 +27,10 @@ header p {
 section {
     padding: 2rem;
     margin: 1rem;
-    width: 80%;
-    max-width: 800px;
 }
 
 section h2 {
     color: #2c3e50;
-    margin-bottom: 1rem;
 }
 
 .skills ul {
@@ -62,4 +52,40 @@ section h2 {
 
 .contact a:hover {
     text-decoration: underline;
+}
+
+/* Apply horizontal alignment for sections */
+.intro, .skills, .education, .contact {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin: 1%;
+}
+
+.intro {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+}
+
+.skills {
+    background-color: #f4f6f7;
+    border-radius: 8px;
+}
+
+.education {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.contact {
+    background-color: #dfe6e9;
+    border-radius: 8px;
+}
+
+/* Background theme for the body */
+body {
+    background-image: linear-gradient(45deg, #6a11cb, #2575fc);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
 }
