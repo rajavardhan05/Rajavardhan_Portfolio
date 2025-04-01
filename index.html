@@ -17,8 +17,8 @@
                 <a href="#skills" class="toggle-section" data-section="skills">Skills</a>
                 <a href="#education" class="toggle-section" data-section="education">Education</a>
                 <a href="https://drive.google.com/file/d/10HXzSEtzmYR_udKH-bgOVfuJgN8H3FND/view?usp=drivesdk" target="_blank" class="resume-link">Resume</a>
+                <a href="#contact" class="contact-toggle">Contact</a>
                 <span class="theme-toggle">&#x1F319;</span>  <!-- Moon icon for theme toggle -->
-                <span class="contact-toggle">Contact</span>
             </div>
         </div>
     </header>
@@ -53,6 +53,29 @@
         <h2>Contact</h2>
         <p>Email: <a href="mailto:rajavardhanreddykothakota@gmail.com">rajavardhanreddykothakota@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com" target="_blank">LinkedIn Profile</a></p>
+        <p>Phone: +1 437 662 4552</p>
     </section>
+
+    <script>
+        // Toggle sections visibility
+        document.querySelectorAll('.toggle-section').forEach(button => {
+            button.addEventListener('click', function() {
+                const sectionId = this.getAttribute('data-section');
+                const section = document.getElementById(sectionId);
+                section.style.display = (section.style.display === 'none' || section.style.display === '') ? 'block' : 'none';
+            });
+        });
+
+        // Toggle contact section
+        document.querySelector('.contact-toggle').addEventListener('click', function() {
+            const contactSection = document.getElementById('contact');
+            contactSection.style.display = (contactSection.style.display === 'none' || contactSection.style.display === '') ? 'block' : 'none';
+        });
+
+        // Dark/Light theme toggle
+        document.querySelector('.theme-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-theme');
+        });
+    </script>
 </body>
 </html>
