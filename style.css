@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -18,11 +18,11 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 header .header-links {
@@ -35,10 +35,12 @@ header .header-links a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 header .header-links a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 header .resume-link {
@@ -80,20 +82,27 @@ header .contact-toggle {
     }
 }
 
+main {
+    padding: 3rem 1rem;
+}
+
 section {
     padding: 2rem;
-    margin: 1rem;
-    display: none;
+    margin: 2rem 0;
+    display: block;
     width: 80%;
     max-width: 800px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .skills ul {
@@ -107,9 +116,10 @@ section h2 {
 .skills li {
     background-color: #ecf0f1;
     margin: 0.5rem;
-    padding: 0.8rem;
-    border-radius: 5px;
+    padding: 1rem;
+    border-radius: 8px;
     width: 48%;
+    font-size: 1.2rem;
 }
 
 .contact a {
@@ -124,7 +134,6 @@ section h2 {
 .intro, .skills, .education, .contact {
     display: block;
     margin-bottom: 2rem;
-    text-align: center;
 }
 
 .intro {
