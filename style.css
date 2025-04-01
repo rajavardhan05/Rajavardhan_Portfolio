@@ -55,6 +55,28 @@ header .theme-toggle {
     margin-left: 10px;
 }
 
+header .contact-toggle {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 section {
     padding: 2rem;
     margin: 1rem;
