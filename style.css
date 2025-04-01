@@ -25,11 +25,34 @@ header p {
     font-size: 1.2rem;
 }
 
-header .theme-toggle {
+header .header-links {
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+header .header-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header .header-links a:hover {
+    text-decoration: none;
+}
+
+header .resume-link {
+    color: white;
+    text-decoration: none;
+}
+
+header .resume-link:hover {
+    text-decoration: none;
+}
+
+header .theme-toggle {
     cursor: pointer;
+    margin-left: 10px;
 }
 
 section {
