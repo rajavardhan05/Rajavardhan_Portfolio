@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f2f2f2;  /* Softer background for the body */
     color: #333;
     text-align: center;
 }
@@ -15,7 +15,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to right, #0072ff, #00c6ff);  /* Consistent blue gradient header theme */
+    background: linear-gradient(to right, #0072ff, #00c6ff);  /* Improved blue gradient header color for better contrast */
     background-size: cover;
     background-position: center;
 }
@@ -35,7 +35,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
-    color: #fff;  /* White color for the header text to contrast well with the background */
+    color: #fff;  /* White color for the header text for good contrast with the background */
 }
 
 header p {
@@ -151,7 +151,7 @@ section h2 {
 }
 
 .light-theme {
-    background-color: #f2f4f7;  /* Softer, warmer light background */
+    background-color: #f2f4f7;  /* Softer light background with a blue tint */
     color: #333;
 }
 
