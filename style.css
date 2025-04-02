@@ -11,26 +11,27 @@ body {
 header {
     background-color: #2c3e50;
     color: #fff;
-    padding: 2rem;
+    padding: 3rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .header-profile-picture {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .header-text {
-    flex-grow: 1;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.8rem;
+    font-size: 3rem;
 }
 
 header p {
@@ -38,10 +39,11 @@ header p {
 }
 
 header .header-links {
-    position: relative;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
 
 header .header-links a {
@@ -101,8 +103,8 @@ section h2 {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skills li {
@@ -110,21 +112,15 @@ section h2 {
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
-    width: 48%;
     font-size: 1.2rem;
 }
 
-.education-boxes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.education-box {
+.education-item {
     background-color: #ecf0f1;
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
-    width: 48%;
+    font-size: 1.2rem;
 }
 
 .contact a {
@@ -176,7 +172,7 @@ section h2 {
     color: #ecf0f1;
 }
 
-.dark-theme .education-box .education-box {
+.dark-theme .education-item {
     background-color: #444;
 }
 
