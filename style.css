@@ -3,8 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;  /* Light soft background color */
-    color: #333;  /* Dark text for good readability */
+    background-color: #f4f4f4;
+    color: #333;
     text-align: center;
 }
 
@@ -13,8 +13,9 @@ header {
     padding: 3rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);  /* Warm gradient header theme */
     background-size: cover;
     background-position: center;
 }
@@ -23,51 +24,41 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 20px;
 }
 
 .header-text {
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 }
 
 header h1 {
     margin: 0;
     font-size: 3rem;
-    color: #2c3e50;  /* Deep, warm color for the main title */
+    color: #2c3e50;
 }
 
 header p {
     font-size: 1.2rem;
-    color: #7f8c8d;  /* Softer contrast for subtitle */
+    color: #7f8c8d;
 }
 
 header .header-links {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-left: auto;
 }
 
 header .header-links a {
-    color: #3498db;  /* Warm accent color for links */
+    color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 header .header-links a:hover {
     text-decoration: underline;
-}
-
-header .resume-link {
-    color: #3498db;
-    text-decoration: none;
-}
-
-header .resume-link:hover {
-    text-decoration: none;
 }
 
 header .theme-toggle {
@@ -96,14 +87,13 @@ section {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    background-color: #ffffff;  /* Clean white background for sections */
+    background-color: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #2c3e50;  /* Dark text for good contrast in headings */
 }
 
 .skills ul {
@@ -115,13 +105,12 @@ section h2 {
 }
 
 .skills li {
-    background-color: #ecf0f1;  /* Soft, light background for skills */
+    background-color: #ecf0f1;
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
     width: 48%;
     font-size: 1.2rem;
-    color: #2c3e50;  /* Dark text for readability */
 }
 
 .education-item {
@@ -130,7 +119,6 @@ section h2 {
     padding: 1rem;
     border-radius: 8px;
     font-size: 1.2rem;
-    color: #2c3e50;
 }
 
 .contact a {
@@ -165,7 +153,7 @@ section h2 {
 }
 
 .light-theme {
-    background-color: #f7f7f7;  /* Light, soft background */
+    background-color: #f7f7f7;
     color: #333;
 }
 
