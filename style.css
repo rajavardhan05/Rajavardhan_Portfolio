@@ -13,9 +13,9 @@ header {
     padding: 3rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    background: linear-gradient(to right, #6a11cb, #2575fc);  /* Updated gradient header color */
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #00c6ff, #0072ff);  /* Mixed blue header color */
     background-size: cover;
     background-position: center;
 }
@@ -24,11 +24,12 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 .header-text {
-    text-align: left;
-    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 header h1 {
@@ -39,14 +40,17 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
-    color: #ecf0f1;  /* Softer color for the subtitle for a smooth look */
+    color: #ecf0f1;  /* Softer color for the subtitle */
 }
 
 header .header-links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: auto;
+    justify-content: flex-end;  /* Align the toggles and links to the right corner */
+    width: 100%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 header .header-links a {
@@ -64,7 +68,32 @@ header .header-links a:hover {
 header .theme-toggle {
     cursor: pointer;
     font-size: 1rem;
-    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 50px;
+    height: 25px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+header .theme-toggle:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+header .theme-toggle.light-mode:before {
+    left: 26px;  /* Position the button to the right for light mode */
+}
+
+header .theme-toggle.dark-mode {
+    background-color: #333;
 }
 
 header .contact-toggle {
