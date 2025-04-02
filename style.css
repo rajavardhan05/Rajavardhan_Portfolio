@@ -49,9 +49,9 @@ header .header-links {
 header .header-links a {
     color: white;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 3px;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 header .header-links a:hover {
@@ -69,14 +69,14 @@ header .resume-link:hover {
 
 header .theme-toggle {
     cursor: pointer;
-    font-size: 0.8rem;
-    margin-left: 10px;
+    font-size: 0.7rem;
+    margin-left: 5px;
 }
 
 header .contact-toggle {
     cursor: pointer;
-    font-size: 0.8rem;
-    margin-left: 10px;
+    font-size: 0.7rem;
+    margin-left: 5px;
 }
 
 main {
