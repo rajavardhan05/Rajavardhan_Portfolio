@@ -43,7 +43,7 @@ header .header-links {
     top: 1rem;
     right: 1rem;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 header .header-links a {
@@ -103,8 +103,8 @@ section h2 {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skills li {
@@ -112,6 +112,7 @@ section h2 {
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
+    width: 48%;
     font-size: 1.2rem;
 }
 
