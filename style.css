@@ -208,6 +208,27 @@ section h2 {
     background-color: #444;
 }
 
+.theme-icons {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.theme-icons .icon {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.theme-icons .sun {
+    width: 30px;
+    height: 30px;
+}
+
+.theme-icons .moon {
+    width: 30px;
+    height: 30px;
+}
+
 /* Mobile and tablet responsiveness */
 @media (max-width: 768px) {
     .skills li {
