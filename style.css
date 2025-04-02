@@ -3,8 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f7f7f7;  /* Light soft background color */
+    color: #333;  /* Dark text for good readability */
     text-align: center;
 }
 
@@ -33,10 +33,12 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
+    color: #2c3e50;  /* Deep, warm color for the main title */
 }
 
 header p {
     font-size: 1.2rem;
+    color: #7f8c8d;  /* Softer contrast for subtitle */
 }
 
 header .header-links {
@@ -48,7 +50,7 @@ header .header-links {
 }
 
 header .header-links a {
-    color: white;
+    color: #3498db;  /* Warm accent color for links */
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
@@ -60,7 +62,7 @@ header .header-links a:hover {
 }
 
 header .resume-link {
-    color: white;
+    color: #3498db;
     text-decoration: none;
 }
 
@@ -94,13 +96,14 @@ section {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: #ffffff;  /* Clean white background for sections */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #2c3e50;  /* Dark text for good contrast in headings */
 }
 
 .skills ul {
@@ -112,12 +115,13 @@ section h2 {
 }
 
 .skills li {
-    background-color: #ecf0f1;
+    background-color: #ecf0f1;  /* Soft, light background for skills */
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
     width: 48%;
     font-size: 1.2rem;
+    color: #2c3e50;  /* Dark text for readability */
 }
 
 .education-item {
@@ -126,6 +130,7 @@ section h2 {
     padding: 1rem;
     border-radius: 8px;
     font-size: 1.2rem;
+    color: #2c3e50;
 }
 
 .contact a {
@@ -160,7 +165,7 @@ section h2 {
 }
 
 .light-theme {
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;  /* Light, soft background */
     color: #333;
 }
 
