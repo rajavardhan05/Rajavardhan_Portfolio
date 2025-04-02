@@ -49,7 +49,7 @@ header .header-links {
 header .header-links a {
     color: white;
     text-decoration: none;
-    margin: 5px 0;
+    margin: 5px 15px;
     font-weight: bold;
 }
 
@@ -153,6 +153,11 @@ section h2 {
 
 .contact {
     background-color: #dfe6e9;
+}
+
+.light-theme {
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .dark-theme {
