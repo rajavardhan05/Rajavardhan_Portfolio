@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e3f2fd;  /* Light blue background for the whole page */
+    background-color: #ffffff;  /* White background for the page */
     color: #333;
     text-align: center;
 }
@@ -35,7 +35,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
-    color: #fff;  /* White color for the header text to contrast well with the background */
+    color: #fff;  /* White color for the header text */
 }
 
 header p {
@@ -182,7 +182,7 @@ section h2 {
 }
 
 .light-theme {
-    background-color: #e3f2fd;  /* Light blue background for light theme */
+    background-color: #ffffff;  /* White background for light theme */
     color: #333;
 }
 
